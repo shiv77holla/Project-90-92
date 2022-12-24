@@ -27,6 +27,7 @@ var name2= document.getElementById("player_2_name").value
 console.log(name1 + name2);
 localStorage.setItem("name1", name1);
 localStorage.setItem("name2", name2);
+window.location="arena.html";
 }
 }
 
