@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "gen";
+    src: url("font.ttf")
+}
+
+body{
+    font-family:"gen";
+    background-image:url('Stormterror\'s\ lair.png');
+    background-repeat: no-repeat;
+    background-size: 1280px;
+    color: black;
+}

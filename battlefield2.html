@@ -1,0 +1,37 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+<title>WARZONE- BYAKUYAKOKU</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.07/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="battlefield2.css">
+</head>
+<body>
+<center><h2>THE LOST CITY OF BYAKUYAKOKU</h2></center>
+<h3 id="player1_score_lb"></h3>
+<h3 id="player2_score_lb"></h3>
+<center>
+<h4 id="question_turn_lb"></h4>
+<h4 id="answer_turn_lb"></h4>
+
+<div>
+<span>
+<h3 id="question_display">QUESTION: WAITING...</h3>
+<input style="display:none"  id="answer_input1" type="number" placeholder="Enter the answer">
+<button style="display:none" id="answer_input2" onclick="check()" style="display:block">SEND</button>
+</span>
+</div>
+<div id="question_asking">
+<span>
+<h3>Enter two numbers:</h3>
+<input id="num1" type="number">
+<input id="num2" type="number">
+</span>
+<button onclick="send()" style="display: block">SEND</button>
+</div>
+</center>
+</body>
+<script src="battlefield2.js"></script>
+</html>

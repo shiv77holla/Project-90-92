@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "gen";
+    src: url("font.ttf")
+}
+
+#body-pre {
+    font-family:"gen";
+    background-image:url('pre-arena bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.battlefield{
+    margin-top: 10px;
+    margin-right: 10px;
+}

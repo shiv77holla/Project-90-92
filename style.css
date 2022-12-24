@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "gen";
+    src: url("font.ttf")
+}
+#body-bg {
+    font-family:"gen";
+    background-image:url('login_bg.gif');
+    background-size: cover;
+}
+#help:hover{
+color:black;
+font-size:25px;
+text-shadow:2px 2px 10px;
+}
+
+#credits:hover{
+    color:black;
+    font-size:25px;
+    text-shadow:2px 2px 10px;
+    }
+#credits-popup{
+text-align: left;
+visibility: hidden;
+}
+
+#musicy:hover{
+    color:black;
+    font-size:25px;
+    text-shadow:2px 2px 10px;
+}
+
+#musicn:hover{
+    color:black;
+    font-size:25px;
+    text-shadow:2px 2px 10px;
+}
+
+#musicn{
+display: none;
+}
